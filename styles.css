@@ -183,7 +183,7 @@ nav a.login-button:hover {
   color: #ddd;
 }
 
-.achievement {
+.result {
   background-color: #1a1a1a;
   color: #ddd;
 }
@@ -229,6 +229,15 @@ section > p {
 }
 
 section .cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-top: 50px;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+.result .cards {
   display: flex;
   flex-wrap: wrap;
   max-width: 1200px;
@@ -292,8 +301,9 @@ section .cards .card {
   padding: 40px 15px;
 }
 
-.achievement .cards .card {
-  padding: 0 0 20px;
+.result .cards .card {
+  padding: 0 0 0px;
+  width: max-content;
 }
 
 .feed .card img {
@@ -304,9 +314,9 @@ section .cards .card {
   object-fit: cover;
 }
 
-.achievement .card img {
+.result .card img {
   width: 100%;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   aspect-ratio: 16 / 9;
   object-fit: cover;
   border-radius: 7px;
