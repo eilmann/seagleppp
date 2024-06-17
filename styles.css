@@ -34,7 +34,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: #333;
+  background: #1a3e92;
 }
 
 .navbar {
@@ -367,7 +367,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: #000;
+  background: #1a3e92;
   padding: 20px 0;
 }
 
